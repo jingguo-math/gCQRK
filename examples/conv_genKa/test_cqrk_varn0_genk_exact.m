@@ -8,7 +8,7 @@ clear
 addpath('../../quadratures');  
 
 % Numerical method parameters
-RK = 2;         % Runge-Kutta method order
+RK = 2;         % Runge-Kutta method 
 Ord = 3;         % Expected convergence order
 Tf = 1;          % Final time (original value was 1)
 
