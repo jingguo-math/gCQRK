@@ -1,6 +1,6 @@
 # Runge--Kutta generalized Convolution Quadrature for sectorial problems
 
-Code accompanying the paper "Runge--Kutta generalized Convolution Quadrature for sectorial problems" by Jing Guo, Maria Lopez-Fernandez.
+  Code accompanying the paper "Runge--Kutta generalized Convolution Quadrature for sectorial problems" by Jing Guo, Maria Lopez-Fernandez. This repository contains code developed exclusively for academic purposes. 如有使用请引用注明
 
 ## Abstract
 
@@ -8,3 +8,4 @@ We study the application of the generalized convolution quadrature (gCQ) based o
 An important advantage of the gCQ method is that it allows for a fast and memory-efficient implementation. We describe how the fast and oblivious Runge--Kutta-based gCQ can be implemented and illustrate our theoretical results with several numerical experiments.
 
 ## Citation
+This repository contains implementation code exclusively for academic research.
