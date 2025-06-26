@@ -9,16 +9,19 @@ function [U,E]=cqrk_varn0_genkTrap(sol,f,Kfun,RK,N,Tf,alpha,grad)
 %%
 tolquad=1e-14;% tolerance of the qudrature rule
 [s,A,c,b,eiginvA,V,invV]=setsolver(RK); %Buther tableau and eigenvalue decomposition of A^(-1)
+eigA=eig(A);
+est=[zeros(1, s-1) 1];
 I=speye(s);
 invA=A\I;
 Mat1=zeros(s);
 Mat1(:,end)=ones(s,1);
-if RK==1
-    R=@(z) 1/(1-z);
+if RK == 1
+    R = @(z) 1./(1 - z);
+elseif RK == 2
+    R = @(z) (2*z + 6)./(z.^2 - 4*z + 6);    
 else
-    R=@(z) 1+z*b'*((I-z*A)\ones(s,1));%stability function
+    R = @(z) est * (V * diag(1 ./ (1 - z * eigA)) * invV) * ones(s, 1);
 end
-
 if grad>20
     n0=N;
 else
