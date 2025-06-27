@@ -7,13 +7,19 @@ We study the application of the generalized convolution quadrature (gCQ) based o
 An important advantage of the gCQ method is that it allows for a fast and memory-efficient implementation. We describe how the fast and oblivious Runge--Kutta-based gCQ can be implemented and illustrate our theoretical results with several numerical experiments.
 
 ## Citation
-This repository contains implementation code exclusively for academic research. If you use this code in your work, please cite the following paper:
+
+This repository provides implementation code intended solely for academic research. If you find this work useful in your research, please consider citing the following paper:
+
+```
+
 @article{GuoLo25,
-  title        = {Runge--Kutta Generalized Convolution Quadrature for Sectorial Problems},
-  author       = {Jing Guo and Maria Lopez-Fernandez},
-  year         = {2025},
-  eprint       = {2506.21242},
-  archivePrefix= {arXiv},
-  primaryClass = {math.NA},
-  url          = {https://arxiv.org/abs/2506.21242}
+title        = {Runge--Kutta Generalized Convolution Quadrature for Sectorial Problems},
+author       = {Jing Guo and Maria Lopez-Fernandez},
+year         = {2025},
+eprint       = {2506.21242},
+archivePrefix= {arXiv},
+primaryClass = {math.NA},
+url          = {[https://arxiv.org/abs/2506.21242}](https://arxiv.org/abs/2506.21242})
 }
+
+```
