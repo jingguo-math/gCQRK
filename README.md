@@ -11,7 +11,7 @@ An important advantage of the gCQ method is that it allows for a fast and memory
 This repository provides implementation code intended solely for academic research. If you use this code in your work, please cite the following paper:
 
 ```
-@article{GuoLo25,
+@misc{GuoLo25,
   title         = {Runge--Kutta Generalized Convolution Quadrature for Sectorial Problems},
   author        = {Jing Guo and Maria Lopez-Fernandez},
   year          = {2025},
