@@ -8,7 +8,7 @@ An important advantage of the gCQ method is that it allows for a fast and memory
 
 ## Citation
 
-This repository provides implementation code intended solely for academic research. If you find this work useful in your research, please consider citing the following paper:
+This repository provides implementation code intended solely for academic research. If you use this code in your work, please cite the following paper:
 
 ```
 @article{GuoLo25,
