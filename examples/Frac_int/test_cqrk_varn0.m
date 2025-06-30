@@ -6,7 +6,7 @@ clear all
 % Add path to quadrature functions (relative path from current location)
 addpath('../../quadratures');
 %% Numerical Parameters
-RK = 2;                 % Runge-Kutta method order (2nd order method)
+RK = 2;                 % Runge-Kutta method order
 Ord = 3;                % Expected convergence order
 Tf = 1;                 % Final simulation time
 
