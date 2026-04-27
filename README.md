@@ -155,7 +155,7 @@ If you use this code, please cite:
   url           = {https://arxiv.org/abs/2506.21242}
 }
 @misc{GuoLo26_code,
-  title         = {jingguo-math/gCQRK: Runge--Kutta Generalized Convolution Quadrature for Sectorial Problems},
+  title         = {Accompanying codes for ``Runge--Kutta Generalized Convolution Quadrature for Sectorial Problems''},
   author        = {Jing Guo and Maria Lopez-Fernandez},
   year          = {2026},
   publisher     = {Zenodo},
