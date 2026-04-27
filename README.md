@@ -154,6 +154,15 @@ If you use this code, please cite:
   primaryClass  = {math.NA},
   url           = {https://arxiv.org/abs/2506.21242}
 }
+@misc{GuoLo26_code,
+  title         = {jingguo-math/gCQRK: Runge--Kutta Generalized Convolution Quadrature for Sectorial Problems},
+  author        = {Jing Guo and Maria Lopez-Fernandez},
+  year          = {2026},
+  publisher     = {Zenodo},
+  doi           = {10.5281/zenodo.19482892},
+  url           = {https://doi.org/10.5281/zenodo.19482892},
+  note          = {MATLAB code}
+}
 ```
 
 ---
