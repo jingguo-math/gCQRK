@@ -33,7 +33,7 @@ gCQRK/
 │   │   └── test_cqrk_varn0.m            % Example 1 — Fractional  integral
 │   │
 │   ├── ODE_heaviside/
-│   │   └── test_cqrk_varn0ODERV.m       % Example 3 — Fractional ordinary diffusion equation with Heaviside forcing
+│   │   └── test_cqrk_varn0ODERV.m       % Example 3 — Fractional differential equation with Heaviside forcing
 │   │
 │   ├── conv_genKa/
 │   │   └── test_cqrk_varn0_genk_exact.m % Example 2 — Convolution with kernel k_a(t)
@@ -62,7 +62,7 @@ gCQRK/
 | **Example 1** | Fractional convolution integral, $K(z) = z^{-\alpha}$ | [`examples/Frac_int/test_cqrk_varn0.m`](examples/Frac_int/test_cqrk_varn0.m) |
 | **Example 2** ($k_a$) | Convolution integral with kernel $k_a(t)$ | [`examples/conv_genKa/test_cqrk_varn0_genk_exact.m`](examples/conv_genKa/test_cqrk_varn0_genk_exact.m) |
 | **Example 2** ($k_b$) | Convolution integral with kernel $k_b(t)$ | [`examples/conv_genKb/test_cqrk_varn0_genkb.m`](examples/conv_genKb/test_cqrk_varn0_genkb.m) |
-| **Example 3** | Fractional ordinary diffusion equation with Heaviside forcing | [`examples/ODE_heaviside/test_cqrk_varn0ODERV.m`](examples/ODE_heaviside/test_cqrk_varn0ODERV.m) |
+| **Example 3** | Fractional diffusion equation in 1D with Heaviside forcing | [`examples/ODE_heaviside/test_cqrk_varn0ODERV.m`](examples/ODE_heaviside/test_cqrk_varn0ODERV.m) |
 | **Example 4** | 2D fractional diffusion PDE | [`examples/PDE/FracDiff_2D/test_gcqrk_PDE2d.m`](examples/PDE/FracDiff_2D/test_gcqrk_PDE2d.m) |
 | **Example 5** | Nonlinear damped Westervelt equation | [`examples/Westervelt/test_gCQRK_WestveltFPI.m`](examples/Westervelt/test_gCQRK_WestveltFPI.m) |
 
@@ -92,7 +92,7 @@ acting on $f(t) = t^\beta$.
 
 ---
 
-### Example 3 — Scalar ODE with Heaviside forcing (`examples/ODE_heaviside/test_cqrk_varn0ODERV.m`)
+### Example 3 — Fractional diferential equation with Heaviside forcing (`examples/ODE_heaviside/test_cqrk_varn0ODERV.m`)
 
 Solves the fractional ordinary diffusion equation
 
