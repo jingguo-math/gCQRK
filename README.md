@@ -1,4 +1,4 @@
-# gCQRK — Runge–Kutta Generalized Convolution Quadrature for Sectorial Problems
+# Runge--Kutta generalized Convolution Quadrature for sectorial problems
 
 MATLAB implementation accompanying the paper:
 
