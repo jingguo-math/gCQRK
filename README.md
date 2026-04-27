@@ -78,7 +78,7 @@ $$u(t) = \int_0^t \frac{(t-s)^{\alpha-1}}{\Gamma(\alpha)} f(s) ds, \quad \alpha 
 
 where the transfer operator is $K(z) = z^{-\alpha}$ and the spectral density is
 
-$$G(x) = \frac{\sin(\pi\alpha)}{\pi}\, x^{-\alpha}.$$
+$$G(x) = \frac{\sin(\pi\alpha)}{\pi} x^{-\alpha}.$$
 
 ---
 
