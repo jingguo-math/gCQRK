@@ -16,7 +16,7 @@ We study the application of the generalized convolution quadrature (gCQ) based o
 
 This repository implements the **generalized Convolution Quadrature (gCQ)** based on Runge–Kutta (RK) methods for numerically approximating Volterra-type convolution integrals of the form
 
-$$u(t) = \int_0^t k(t-s)\, f(s)\, ds, \quad t > 0,$$
+$$u(t) = \int_0^t k(t-s) f(s) ds, \quad t > 0,$$
 
 on **non-uniform time meshes**, where $k(t)$ can be scalar-valued or operator-valued, depending on the problem setting.
 
@@ -74,7 +74,7 @@ gCQRK/
 
 Approximates
 
-$$u(t) = \int_0^t \frac{(t-s)^{\alpha-1}}{\Gamma(\alpha)}\, f(s)\, ds, \quad \alpha \in (0,1),$$
+$$u(t) = \int_0^t \frac{(t-s)^{\alpha-1}}{\Gamma(\alpha)} f(s) ds, \quad \alpha \in (0,1),$$
 
 where the transfer operator is $K(z) = z^{-\alpha}$ and the spectral density is
 
@@ -118,11 +118,13 @@ $$\partial_t^\alpha u - u_{xx} - u_{yy} = f, \quad (x,y) \in \Omega,$$
 
 with initial condition $u(x,y,0) = 0$ and homogeneous Dirichlet boundary conditions. The exact solution is
 
-$$u(x,y,t) = t^\alpha \cos\!\left(\frac{\pi}{2}x\right) \cos\!\left(\frac{\pi}{2}y\right),$$
+ $$u(x,y,t) = t^\alpha \cos\left(\frac{\pi}{2}x\right) \cos\left(\frac{\pi}{2}y\right),$$
+
 
 and the source term is
 
-$$f(x,y,t) = \left(\Gamma(\alpha+1) + \frac{\pi^2}{2}\, t^\alpha\right) \cos\!\left(\frac{\pi}{2}x\right) \cos\!\left(\frac{\pi}{2}y\right).$$
+$$f(x,y,t) = \left(\Gamma(\alpha+1) + \frac{\pi^2}{2} t^\alpha\right) \cos\!\left(\frac{\pi}{2}x\right) \cos\!\left(\frac{\pi}{2}y\right).$$
+
 
 ---
 
