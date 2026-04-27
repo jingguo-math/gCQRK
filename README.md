@@ -132,7 +132,7 @@ $$f(x,y,t) = \left(\Gamma(\alpha+1) + \frac{\pi^2}{2} t^\alpha\right) \cos\!\lef
 
 Solves the nonlinear Westervelt equation
 
-$$(1-2\kappa u)\,\partial_t^2 u - u_{xx} - (k \ast \partial_t u_{xx}) = 2\kappa(\partial_t u)^2 + f, \quad x \in (-8,8),\quad t \in (0,2],$$
+$$(1-2\kappa u)\partial_t^2 u - u_{xx} - (k \ast \partial_t u_{xx}) = 2\kappa(\partial_t u)^2 + f, \quad x \in (-8,8),\quad t \in (0,2],$$
 
 with boundary conditions $u(\pm 8, t) = 0$ and initial conditions $u(x,0) = e^{-x^2}/2$, $\partial_t u(x,0) = 0$, where
 
@@ -166,5 +166,5 @@ GPL-3.0 — see [LICENSE](LICENSE) for details.
 
 ## Authors
 
-- **Jing Guo** — Department of Mathematics, University of Macau (jingguo@um.edu.mo)
+- **Jing Guo** — School of Mathematics and Statistics, Guangdong University of Technology (jingguo@gdut.edu.cn)
 - **Maria Lopez-Fernandez** — University of Malaga (maria.lopezf@uma.es)
